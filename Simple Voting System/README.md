@@ -1,20 +1,10 @@
-Write a Python program to simulate a simple voting system with the following conditions:-
+Write a Python program that simulates a simple voting system. The program should:
+1.	Ask the user to enter their age.
+2.	If the user is 18 years or older, display a message that they are eligible to vote.
+3.	Allow the user to cast a vote for a political party by entering the party name.
+o	Acceptable party names are: LDF, UDF, BJP.
+o	The input should be case-insensitive, and the program should convert it to uppercase before checking.
+o	If the entered party is valid, display a message: "Vote Cast. Thank You!"
+o	If the entered party is not valid, display: "Invalid Party"
+4.	If the user is under 18, display a message that they are not eligible to vote.
 
-A person is eligible to vote only if their age is greater than or equal to 18.
-
-If the person is eligible, display the voting options:
-1. LDF
-2. UDF
-3. BJP
-
-Allow any number of users to vote.
-
-After each person votes, ask: 
-    "Is there another person to vote? (yes/no)".
-
-If the answer is "yes", allow the next person to vote.
-
-After all voting is done, display : 
-    Total number of votes received by each party.
-
-Which party won the election (i.e., received the highest number of votes).
