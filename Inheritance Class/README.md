@@ -6,9 +6,9 @@ Requirements:
 
 1. The parent class Vehicle should have:
 
-•An_init method to initialize brand and model.
+    •An_init method to initialize brand and model.
 
-•A displayinfo) method to print the brand and model.
+    •A displayinfo) method to print the brand and model.
 
 2. The child classes (Car, Bike, Truck) should inherit from Vehicle.
 
