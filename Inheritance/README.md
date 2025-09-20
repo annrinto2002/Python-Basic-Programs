@@ -1,15 +1,23 @@
-Create a parent class called Vehicle with the attributes brand and model. Implement a child class for each type of vehicle: Car, Bike, and Truck. Each child class should inherit from Vehicle but should not have any additional attributes or methods (use pass).
+Create a parent class called Vehicle with the attributes brand and model.
+
+    • Implement a child class for each type of vehicle: Car, Bike, and Truck.
+
+    •Each child class should inherit from Vehicle** and should have extra attributes and methods"       related to their type.
 
 Requirements:
+  1.Parent class: Vehicle
 
-The parent class Vehicle should have:
+    •An_ init method to initialize brand and model.
+    
+    •A ShowDetails method to print the brand and model.
 
-An __init__ method to initialize brand and model. 
+  2.Child classes (Car, Bike, Truck)
 
-A display_info() method to print the brand and model. 
+    •Car: Should have extra attributes num doors and fuel type and a method CarDetailsO
+    to print them.
 
-The child classes (Car, Bike, Truck) should inherit from Vehicle.
+    •Bike: Should have an extra attribute engine capacity and a method BikeDetails to print it.
 
-Create an object for each child class and display the details using the display_info() method.
+    •Truck: Should have an extra attribute load capacity, and a method TruckDetails) to print it,
 
-
+3.Create an object for each child class and display all the details using their respective methods.
